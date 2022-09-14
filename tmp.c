@@ -64,6 +64,13 @@ int main() {
     
     printf("\nA kör területe: %.2f\n",t);
     printf("\nA kör kerülete: %.2f\n",k);
-
+    
+    int a,b,tmp;
+    printf("\nAdj meg két számot! a b fomrában");
+    scanf("%d %d",&a,&b);
+    tmp = a;
+    a=b;
+    b=tmp;
+    printf("\n%d %d %d",tmp,a,b);
     return 0;
 }
